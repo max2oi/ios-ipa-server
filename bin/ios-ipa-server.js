@@ -136,6 +136,7 @@ function main() {
     });
   });
 
+  // 每次进入/download都会调用这个方法, 获取ipa的信息
   app.get(['/', '/download'], function(req, res, next) {
 
     fs.readFile(path.join(__dirname, '..', 'templates') + '/download.html', function(err, data) {
