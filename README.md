@@ -1,3 +1,8 @@
+TODO:
+- 性能优化. 目录下的ipa如果很多的话速度会很慢.
+- 内存占用优化. 使用pm2查看发现占用的内存很高.
+- 支持提取版本号等元信息.
+
 自动生成自签名HTTPS服务器，快速安装ipa
 
 [README For English](./README-en.md)
